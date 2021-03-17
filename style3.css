@@ -1,0 +1,221 @@
+            /* styling the header*/
+            
+            .content {
+                width: 90%;
+                margin: auto;
+                padding-bottom: 30px;
+            }
+            
+            header {
+                background-color: white;
+                height: 60px;
+            }
+            
+            header img {
+                float: left;
+                margin: 0px;
+                width: 20%;
+                margin-top: 0px;
+                height: 50px;
+            }
+            
+            header .nav {
+                float: right;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            
+            header ul li {
+                list-style: none;
+                display: inline-block;
+            }
+            
+            header ul li a {
+                text-decoration: none;
+                color: darkgrey;
+                padding-left: 23px;
+                font-weight: 700;
+            }
+            
+            header ul li a:hover {
+                color: #2a7a7a;
+            }
+            
+            header ul li a.home {
+                color: darkcyan;
+            }
+            /*End of the header*/
+            
+            .work {
+                background-image: url(./images/main-page.jpg);
+                background-size: cover;
+                width: 100%;
+                height: 600px;
+            }
+            
+            .work h2 {
+                text-align: center;
+                color: #bbd7df;
+                font-size: 70px;
+                padding-top: 120px;
+                margin: 0px;
+                word-spacing: 10px;
+                letter-spacing: 3px;
+            }
+            
+            .work p {
+                text-align: center;
+                color: white;
+                padding-top: 30px;
+                font-size: 35px;
+                font-weight: bold;
+                padding-bottom: 20px;
+                letter-spacing: 3px;
+            }
+            
+            button {
+                border: 0px;
+                background: #C84869;
+                width: 200px;
+                height: 50px;
+                font-size: 18px;
+                color: white;
+                margin-top: 20px;
+                letter-spacing: 2px;
+                outline: none;
+                border-radius: 25px;
+                box-shadow: #181717 20px;
+            }
+            
+            button:hover {
+                background: cadetblue;
+                cursor: pointer;
+            }
+            
+            .serve {
+                height: 430px;
+                overflow: hidden;
+            }
+            
+            .serve h1 {
+                font-weight: lighter;
+            }
+            
+            .serve .pic {
+                float: left;
+                width: 40%;
+            }
+            
+            .serve img {
+                width: 100%;
+            }
+            
+            .serve .service {
+                float: right;
+                width: 40%;
+                padding-top: 70px;
+            }
+            
+            .serve p {
+                font-size: 23px;
+            }
+            
+            #team {
+                height: 430px;
+                overflow: hidden;
+                background-color: #C5DFE6;
+            }
+            
+            #team .pic {
+                float: right;
+                width: 40%;
+            }
+            
+            #team img {
+                width: 100%;
+            }
+            
+            #team .tea {
+                float: left;
+                width: 40%;
+                padding-top: 70px;
+            }
+            
+            #team p {
+                font-size: 23px;
+            }
+            
+            #team h1 {
+                font-weight: lighter;
+            }
+            
+            .client {
+                height: 430px;
+                overflow: hidden;
+            }
+            
+            .client h1 {
+                float: right;
+            }
+            
+            #contact {
+                height: 150px;
+                overflow: hidden;
+            }
+            
+            #contact .con {
+                float: left;
+                width: 70%;
+                padding-top: 20px;
+            }
+            
+            #contact .con h1 {
+                margin-bottom: 0px;
+                font-weight: lighter;
+            }
+            
+            #contact .con p {
+                padding-top: 5px;
+                margin-top: 0px;
+                font-weight: lighter;
+            }
+            
+            #contact .button {
+                float: right;
+                width: 30%;
+                padding-top: 50px;
+            }
+            
+            .finish {
+                background-color: #C2C5CC;
+                height: 70px;
+                margin-top: 10px;
+            }
+            
+            .finish .fin {
+                margin: auto
+            }
+            
+            .finish .fin p {
+                float: left;
+                font-size: 15px;
+                margin-left: 20px;
+                margin-top: 25px;
+                font-weight: bold;
+            }
+            
+            .finish .fin ul li {
+                float: right;
+                list-style: none;
+                display: inline-block;
+                padding-left: 20px;
+                margin-right: 20px;
+                margin-top: 20px;
+            }
+            
+            .finish ul li img {
+                width: 35px;
+            }
+            
+            h1 {
+                font-weight: 700;
+            }
